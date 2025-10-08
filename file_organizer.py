@@ -18,12 +18,39 @@ Beispiele:
 
 Regeldatei (JSON) Beispiel:
 {
-  ".jpg": "Bilder",
-  ".png": "Bilder",
-  ".pdf": "PDF",
-  ".mp3": "Audio",
-  ".mp4": "Videos"
-}
+    ".jpg": "Bilder",
+    ".jpeg": "Bilder",
+    ".png": "Bilder",
+    ".gif": "Bilder",
+    ".webp": "Bilder",
+  
+    ".pdf": "PDF",
+    ".doc": "Dokumente",
+    ".docx": "Dokumente",
+    ".txt": "Text",
+    ".md": "Markdown",
+    ".ppt": "Präsentationen",
+    ".pptx": "Präsentationen",
+    ".xls": "Tabellen",
+    ".xlsx": "Tabellen",
+    ".csv": "Tabellen",
+  
+    ".mp3": "Audio",
+    ".wav": "Audio",
+    ".flac": "Audio",
+  
+    ".mp4": "Videos",
+    ".mov": "Videos",
+    ".mkv": "Videos",
+  
+    ".zip": "Archive",
+    ".rar": "Archive",
+    ".7z": "Archive",
+  
+    ".py": "Code",
+    ".js": "Code",
+    ".ts": "Code"
+  }
 
 Hinweise:
 - Das Manifest erlaubt Undo: Verschobenes wird zurückverschoben, Kopiertes gelöscht.
@@ -45,16 +72,16 @@ from typing import Dict, List, Optional, Tuple
 # ---------------------- Standard-Regeln (Fallback) ---------------------- #
 DEFAULT_RULES: Dict[str, str] = {
     # Bilder
-    ".jpg": "Bilder", ".jpeg": "Bilder", ".png": "Bilder", ".gif": "Bilder", ".webp": "Bilder", ".bmp": "Bilder", ".tiff": "Bilder",
+    ".jpg": "Bilder", ".jpeg": "Bilder", ".png": "Bilder", ".gif": "Bilder", ".webp": "Bilder",
     # Dokumente
-    ".pdf": "PDF", ".doc": "Dokumente", ".docx": "Dokumente", ".odt": "Dokumente", ".rtf": "Dokumente", ".txt": "Text",
+    ".pdf": "PDF", ".doc": "Dokumente", ".docx": "Dokumente", ".txt": "Text",
     ".md": "Markdown", ".ppt": "Präsentationen", ".pptx": "Präsentationen", ".xls": "Tabellen", ".xlsx": "Tabellen", ".csv": "Tabellen",
     # Audio / Video
-    ".mp3": "Audio", ".wav": "Audio", ".flac": "Audio", ".aac": "Audio",
-    ".mp4": "Videos", ".mov": "Videos", ".mkv": "Videos", ".avi": "Videos",
+    ".mp3": "Audio", ".wav": "Audio", ".flac": "Audio",
+    ".mp4": "Videos", ".mov": "Videos", ".mkv": "Videos",
     # Code / Archive / Sonstiges
-    ".py": "Code", ".js": "Code", ".ts": "Code", ".java": "Code", ".c": "Code", ".cpp": "Code", ".cs": "Code",
-    ".zip": "Archive", ".rar": "Archive", ".7z": "Archive", ".tar": "Archive", ".gz": "Archive",
+    ".py": "Code", ".js": "Code", ".ts": "Code",
+    ".zip": "Archive", ".rar": "Archive", ".7z": "Archive",
 }
 
 # ---------------------- Hilfsfunktionen ---------------------- #
