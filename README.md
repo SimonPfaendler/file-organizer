@@ -6,7 +6,8 @@ Unterstützt **JSON-Regeln** und ein **Manifest** für Undo.
 Du kannst das Skript mit folgendem Befehl ausführen:  
 
 
-Powershell 
+Powershell   
+
 py .\file_organizer.py . $HOME\Sortiert --recursive --mode move --rules .\rules.json --by-date
 
 
