@@ -1,0 +1,34 @@
+{
+    ".jpg": "Bilder",
+    ".jpeg": "Bilder",
+    ".png": "Bilder",
+    ".gif": "Bilder",
+    ".webp": "Bilder",
+  
+    ".pdf": "PDF",
+    ".doc": "Dokumente",
+    ".docx": "Dokumente",
+    ".txt": "Text",
+    ".md": "Markdown",
+    ".ppt": "Präsentationen",
+    ".pptx": "Präsentationen",
+    ".xls": "Tabellen",
+    ".xlsx": "Tabellen",
+    ".csv": "Tabellen",
+  
+    ".mp3": "Audio",
+    ".wav": "Audio",
+    ".flac": "Audio",
+  
+    ".mp4": "Videos",
+    ".mov": "Videos",
+    ".mkv": "Videos",
+  
+    ".zip": "Archive",
+    ".rar": "Archive",
+    ".7z": "Archive",
+  
+    ".py": "Code",
+    ".js": "Code",
+    ".ts": "Code"
+  }
